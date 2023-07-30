@@ -1,0 +1,117 @@
+﻿body
+{
+}
+*{
+    font-family:Arial;
+  /*  font-size:16px;*/
+    box-sizing:border-box;
+}
+h1 {
+    font-size: 175%;
+    text-align: center;
+}
+.p, .p2, .b {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    float: right;
+    font-size: 125%;
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+}
+.p{
+    background-color:pink;
+}
+.p2{
+    background-color:red;
+}
+.b{
+    background-color:yellow;
+}
+
+#pizza {
+    background-color: grey;
+    border: 3px solid black;
+    color: black;
+    height: 180px;
+    width: 30%;
+    margin: 15px;
+    float: left;
+}
+#pasta {
+    background-color: grey;
+    border: 3px solid black;
+    color: black;
+    height: 180px;
+    width: 30%;
+    margin: 15px;
+    float: left;
+}
+#burger {
+    background-color: grey;
+    border: 3px solid black;
+    color: black;
+    height: 180px;
+    width: 30%;
+    margin: 15px;
+    float: left;
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    #pizza {
+        background-color: grey;
+        border: 3px solid black;
+        color: black;
+        height: 180px;
+        width: 45%;
+        margin: 15px;
+        float: left;
+    }
+
+    #pasta {
+        background-color: grey;
+        border: 3px solid black;
+        color: black;
+        height: 180px;
+        width: 45%;
+        margin: 15px;
+        float: left;
+    }
+
+    #burger {
+        background-color: grey;
+        border: 3px solid black;
+        color: black;
+        height: 180px;
+        width: 94%;
+        margin: 15px;
+    }
+}
+    @media(max-width:767px) {
+        #pizza {
+            background-color: grey;
+            border: 3px solid black;
+            color: black;
+            height: 180px;
+            width: 98%;
+            margin: 15px;
+        }
+
+        #pasta {
+            background-color: grey;
+            border: 3px solid black;
+            color: black;
+            height: 180px;
+            width: 98%;
+            margin: 15px;
+        }
+
+        #burger {
+            background-color: grey;
+            border: 3px solid black;
+            color: black;
+            height: 180px;
+            width: 98%;
+            margin: 15px;
+        }
+    }
